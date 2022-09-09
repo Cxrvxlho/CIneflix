@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Aula do dia 5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 05
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <br>
+    <br>
+    <h1 class="page-title">
+      Cineflix
+    </h1>
+    <p class="Aviso"> APENAS DARÁ PARA LINKS QUE ACABEM EM ".JPG" OU ".PNG" </p>
+    <p class="Aviso2">
+    PARA REMOVER UMA IMAGEM BASTA METER O LINK E O NOME
+    <p class="page-subtitle"> > Qual seu filme favorito? </p>
+
+    <p class="nome">
+      Nome:
+    </p>
+    <div class="form-wrapper">
+      <input type="text" id="nomeFilme" name="Nomefilme" placeholder="Insira o nome do filme"><br />
+      <p class="linkdaimg">
+        Link da Imagem:
+      </p>
+      <div class="form-wrapper">
+        <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+        <button onClick="adicionarFilme()">Adicionar Filme</button>
+        <button onClick="removerFilme()">Remover Filme</button>
+      </div>
+    </div>
+    <div id="listaFilmes"></div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
